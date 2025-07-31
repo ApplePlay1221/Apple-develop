@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космический вход</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <button id="floatingButton" class="cosmic-button">Войти</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content cosmic-modal">
+            <span class="close">&times;</span>
+            <form action="">
+                <h5 class="cosmic-title">Войти в аккаунт</h5>
+                <div class="input-group">
+                    <label>Логин:</label>
+                    <input type="text" placeholder="Введите логин" class="cosmic-input">
+                </div>
+                <div class="input-group">
+                    <label>Пароль:</label>
+                    <input type="password" placeholder="Введите пароль" class="cosmic-input">
+                </div>
+                <div class="button-group">
+                    <input type="submit" value="Войти" class="cosmic-submit">
+                    <input type="reset" value="Отмена" class="cosmic-cancel">
+                </div>
+            </form>
+        </div>
+    </div>
+    <canvas id="starfield"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>
